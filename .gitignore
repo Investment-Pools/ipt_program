@@ -1,0 +1,63 @@
+# Anchor
+.anchor
+target
+**/*.rs.bk
+test-ledger
+
+# Node
+node_modules
+.yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build artifacts
+/target/
+*.so
+*.wasm
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+.claude/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Solana
+.config/solana/
+*.json
+!Anchor.toml
+!tsconfig.json
+!package.json
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Documentation builds (keep source docs)
+*.md.backup
